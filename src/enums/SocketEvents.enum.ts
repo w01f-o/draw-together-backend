@@ -1,0 +1,9 @@
+export enum SocketEvents {
+  JOIN_ROOM = 'JOIN_ROOM',
+  LEAVE_ROOM = 'LEAVE_ROOM',
+  CREATE_ROOM = 'CREATE_ROOM',
+  SET_ROOMS = 'SET_ROOMS',
+  GET_ROOMS = 'GET_ROOMS',
+  DRAW = 'DRAW',
+  SEND_IMAGE = 'SEND_IMAGE',
+}
